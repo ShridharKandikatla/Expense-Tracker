@@ -21,23 +21,29 @@ A full-stack application to track expenses, built with Node.js, Express, MongoDB
    cd backend
 
 2. Install dependencies:
+    ```bash
    npm install
 
 3. Create a .env file with the following:
+    ```bash
     MONGO_URI=mongodb://localhost:27017/expense-tracker
     PORT=5000
 
 4. Start the server:
+    ```bash
     npm start
 
 ### Frontend
 1. Navigate to the frontend directory:
+    ```bash
     cd frontend
 
 2. Install dependencies:
+    ```bash
     npm install
 
 3. Start the React app:
+    ```bash
     npm start
 
 4. Open http://localhost:5173 in your browser.
